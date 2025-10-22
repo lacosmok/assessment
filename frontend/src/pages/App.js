@@ -1,18 +1,17 @@
-import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import Items from './Items';
-import ItemDetail from './ItemDetail';
-import { DataProvider } from '../state/DataContext';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Items from "./items/Items";
+import ItemDetail from "./items/ItemDetail";
+import { DataProvider } from "../state/DataContext";
+import SearchBar from "./SearchBar";
 
 function App() {
   return (
     <DataProvider>
-      <nav style={{padding: 16, borderBottom: '1px solid #ddd'}}>
-        <Link to="/">Items</Link>
-      </nav>
+
       <Routes>
-        <Route path="/" element={<Items />} />
         <Route path="/items/:id" element={<ItemDetail />} />
+        <Route path="/" element={<Items />} />
       </Routes>
     </DataProvider>
   );
