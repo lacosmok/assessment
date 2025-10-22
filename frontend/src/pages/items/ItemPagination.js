@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useData } from "../../state/DataContext";
 
 const ItemPagination = () => {

@@ -9,8 +9,8 @@ function ItemDetail() {
   useEffect(() => {
     fetch("http://localhost:4001/api/items/" + id)
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
-      .then(setItem);
-    // .catch(() => navigate('/'));
+      .then(setItem)
+      .catch(() => navigate("/"));
   }, [id, navigate]);
 
   return (

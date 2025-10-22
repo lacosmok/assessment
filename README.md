@@ -1,8 +1,8 @@
 # Take‑Home Assessment
 
-Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios.
-Your task is to refactor, optimize, and fix these problems.
-
+Hello, just for clarification I'm not considering myself a fullstack engineer, and due to that part of this task is quite out of scope of my prefered stack.
+I decided to make minimal changes to the backend, which meant that some functionality was not implemented.
+Due to time constraints some functionalities were kept minimal(loading/skeleton states)
 ## Objectives
 
 ### 💻 Frontend (React)

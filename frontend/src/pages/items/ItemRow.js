@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-function Row({ index, items, style }) {
+
+function ItemRow({ index, items, style }) {
   const item = items[index];
   return (
     <Link
@@ -13,4 +14,4 @@ function Row({ index, items, style }) {
     </Link>
   );
 }
-export default Row;
+export default ItemRow;
